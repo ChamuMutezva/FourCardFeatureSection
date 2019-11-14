@@ -25,13 +25,13 @@ h2 {
 }
 
 p{
-    font-size: medium;
-    margin: 5%;
+    font-size: small;
+    margin: 12%;
 }
 div {
     border: 1px solid transparent;
     border-radius: 10px;
-    box-shadow: 1px 1px 1px 1px dimgrey;
+    box-shadow: 5px 5px 5px 5px whitesmoke;
     margin: 5% auto;
     width: 80%;
     height: 35vh;
@@ -69,6 +69,7 @@ div p {
     text-align: start;
     /* align-self: flex-start; */
     margin-left: 5%;
+    margin-top: 2%;
     font-size: small;
 }
 }
@@ -87,6 +88,9 @@ div p {
 }
 
 @media only screen and (min-width: 840px) {
+    body {
+        background-color: hsl(55, 30%, 97%);
+    }
     header {
         width: 50%;
         margin: auto;
