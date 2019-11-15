@@ -31,7 +31,7 @@ p{
 div {
     border: 1px solid transparent;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px 5px whitesmoke;
+    box-shadow: -1px 5px 0px 4px whitesmoke;
     margin: 5% auto;
     width: 80%;
     height: 35vh;
